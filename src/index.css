@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url("../src/assets/calendar-icon.png") no-repeat right 0rem
+    center/1.6rem 1.5rem;
+  width: 30px;
+  height: 21px;
+  border-width: thin;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url("../src/assets/caret-down.png") no-repeat right
+    1.2rem center/1.2rem 2rem;
+}
